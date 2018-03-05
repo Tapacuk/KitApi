@@ -11,13 +11,6 @@
 |
 */
 
-Route::get('/guz', 'GuzController@index');
-Route::get('services', function(){
-		$b = KitApi::get_services();
-		//dd($b);
-		$a = array($b->ZA, $b->NM);
-		return $a;
-});
 Route::get('services', 'CitiController@services');
 Route::get('cities', 'CitiController@cities');
 Route::get('is_city/{city}', 'CitiController@is_city');
