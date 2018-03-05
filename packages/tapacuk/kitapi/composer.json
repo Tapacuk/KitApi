@@ -1,0 +1,21 @@
+{
+    "name": "tapacuk/kitapi",
+    "description": "An implemention of Kit Api in Laravel",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Tapacuk",
+            "email": "ken4ik.gamer@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "^6.2@dev"
+    },
+    "autoload": {
+    		"psr-4": {
+    				"tapacuk\\kitapi\\": ""
+    		}
+    }
+}
